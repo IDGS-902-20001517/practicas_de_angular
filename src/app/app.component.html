@@ -1,0 +1,32 @@
+<p>Hola Mundo!!!</p>
+
+
+<div>
+  <h1>IDGS 902</h1>
+</div>
+<div>
+  {{title}}
+</div>
+<div>La suma de 2 + 2 es :{{2+2}}</div>
+<div>El doble de 3 es {{duplicarN(3)}}</div>
+
+<hr>
+<div>
+<br>
+<div><b> Maticula</b>{{alumno.matricula}}</div>
+
+<div><b>Nombre</b>{{alumno.nombre | uppercase}}</div>
+
+<div><b>Apellido Paterno</b>{{alumno.apaterno | lowercase}}</div>
+
+<div><b>Status</b>{{alumno.Inscrito | currency}}</div>
+
+<div><b>Fecha Nacimiento</b>{{alumno.fechaNacimiento | date:"dd-MM-yy"}}</div>
+
+  <hr>
+  <app-grupos></app-grupos>
+  <hr>
+  <app-alumno></app-alumno>
+  <hr>
+  <app-idgs></app-idgs>
+</div>
