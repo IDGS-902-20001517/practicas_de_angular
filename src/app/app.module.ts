@@ -4,6 +4,13 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { Alumno, NameGrupos } from './utl/grupos.componet';
 import { IdgsComponent } from './utl/idgs/idgs.component';
+import { IricComponent } from './utl/iric/iric.component';
+import { MenuComponent } from './utl/menu/menu.component';
+import { FormsModule } from '@angular/forms';
+import { SumaComponent } from './utl/formularios/suma/suma.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { OperasbasComponent } from './utl/operasbas/operasbas.component';
+import {MatInputModule} from '@angular/material/input';
 
 @NgModule({
   declarations: [
@@ -11,9 +18,17 @@ import { IdgsComponent } from './utl/idgs/idgs.component';
     NameGrupos,
     Alumno,
     IdgsComponent,
+    IricComponent,
+    MenuComponent,
+    SumaComponent,
+    OperasbasComponent,
+    
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    FormsModule,
+    BrowserAnimationsModule,
+    MatInputModule
   ],
   providers: [],
   bootstrap: [AppComponent]
