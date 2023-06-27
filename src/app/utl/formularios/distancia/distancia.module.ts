@@ -8,6 +8,7 @@ import {MatRadioModule} from '@angular/material/radio';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatListModule} from '@angular/material/list';
 import {MatSelectModule} from '@angular/material/select';
+import {MatButtonModule} from '@angular/material/button';
 
 
 @NgModule({
@@ -18,6 +19,7 @@ import {MatSelectModule} from '@angular/material/select';
     CommonModule,
     MatInputModule,
     MatIconModule,
+    MatButtonModule,
     FormsModule,
     MatRadioModule,
     MatFormFieldModule,

@@ -1,0 +1,20 @@
+<div class="contenedor">
+    <mat-form-field>
+      <input matInput [(ngModel)]="nombre" type="text" placeholder="Nombre">
+    </mat-form-field>
+    <mat-form-field>
+      <input matInput [(ngModel)]="compradores" type="number" placeholder="Compradores">
+    </mat-form-field>
+    <mat-form-field>
+        <mat-radio-group name="cineco" [(ngModel)]="cineco">
+            <input matInput [(ngModel)]="cineco" type="number" placeholder="Tarjeta Cineco">
+            <mat-radio-button value="Si">Si</mat-radio-button>
+            <mat-radio-button value="No">No</mat-radio-button>
+          </mat-radio-group>
+      </mat-form-field>
+      <mat-form-field>
+        <input matInput [(ngModel)]="entradas" type="number" placeholder="Entradas">
+      </mat-form-field>
+    <button mat-raised-button color="primary" (click)="calcular()">Calcular</button>
+    <h1><p>El resultado es:{{datos}}</p></h1>
+  </div>

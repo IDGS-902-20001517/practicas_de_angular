@@ -1,16 +1,16 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { IdgsComponent } from './idgs.component';
+import { CinepolisComponent } from './cinepolis.component';
 
-describe('IdgsComponent', () => {
-  let component: IdgsComponent;
-  let fixture: ComponentFixture<IdgsComponent>;
+describe('CinepolisComponent', () => {
+  let component: CinepolisComponent;
+  let fixture: ComponentFixture<CinepolisComponent>;
 
   beforeEach(() => {
     TestBed.configureTestingModule({
-      declarations: [IdgsComponent]
+      declarations: [CinepolisComponent]
     });
-    fixture = TestBed.createComponent(IdgsComponent);
+    fixture = TestBed.createComponent(CinepolisComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
