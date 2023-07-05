@@ -9,8 +9,8 @@ import { CinepolisModule } from './utl/formularios/cinepolis/cinepolis.module';
 import { ResistenciasModule } from './utl/formularios/resistencias/resistencias.module';
 import { AppRoutingModule } from './app.routing.module';
 
-import { CalificacionAlumComponent } from './utl/calificacion-alum/calificacion-alum.component';
 import { AlumnoFilterPipe } from './utl/alumno-filter.pipe';
+import { PizzeriaModule } from './utl/formularios/pizzeria/pizzeria.module';
 
 
 @NgModule({
@@ -18,7 +18,6 @@ import { AlumnoFilterPipe } from './utl/alumno-filter.pipe';
     AppComponent,
     MenuComponent,
     MenuComponent,
-    CalificacionAlumComponent,
     AlumnoFilterPipe
   ],
   imports: [
@@ -26,7 +25,8 @@ import { AlumnoFilterPipe } from './utl/alumno-filter.pipe';
     DistanciaModule,
     CinepolisModule,
     ResistenciasModule,
-    AppRoutingModule
+    AppRoutingModule,
+    PizzeriaModule
   ],
   providers: [],
   bootstrap: [AppComponent]
